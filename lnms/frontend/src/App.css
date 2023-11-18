@@ -1,0 +1,529 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#imgh:hover{
+height: 600px;
+width: 600px;
+}
+th{
+  font-size: 16px;
+  text-align: center;
+}
+.imgh{
+  height: 70px;
+  width: 65px;
+  cursor: pointer;
+}
+/* #imgh{
+  height: 10px;
+width: 120px;
+} */
+td:hover{
+  /* outline: 1.5px solid black; */
+  box-shadow: 3px 3px 20px black;
+  /* font-size: 20px; */
+  /* color: white; */
+  /* font-weight: 800px; */
+}
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+#regmain{
+  background-color: lightgray;
+  height: 500px;
+
+}
+input{
+  border-radius: 5px;
+outline: none;
+height: 32px;
+width: 220px;
+font-size: 18px;
+text-align: center;
+
+}
+@keyframes submition{
+  from{background-color: lightgreen;box-shadow: 1px 1px 2px black; mask-position: 0%;}
+  to{background-color:lightgreen; mask-position: 120%;}
+}
+input[type="submit"]{
+color: black;
+background: linear-gradient(45deg, yellow, purple, red, blue);
+
+height: 30px;
+width: 90px;
+/* animation-name: submition; */
+animation-duration: 2s;
+animation-iteration-count: infinite;
+cursor: pointer;
+margin-bottom: 30px;
+font-size: 20px;
+color: white;
+font-weight: 900px;
+}
+#upperip{
+  margin-left: 20px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+#regsdiv{
+  height: 500px;
+  width: 350px;
+  background-color: whitesmoke;
+  box-shadow: 3px 3px 10px black;
+  border-radius: 10px;
+  margin-top: 25px;
+  /* animation-name: mani; */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  
+}
+@keyframes mani{
+  0%{transform: translateY(0px);}
+50%{transform: translateY(-10px);}
+100%{transform: translateY(0px);}
+
+
+}
+#regshed{
+/* padding-top: 50px; */
+padding-bottom: 20px;
+font-size: 30px;
+text-transform: capitalize;
+}
+.laab{
+  padding-left: 0px;
+font-size: 18px;
+
+}
+#passreg{
+  margin-bottom: 50px;
+}
+#menudiv{
+  height:50px;
+  /* width: 180px; */
+  /* position: fixed; */
+  background-color:lightsalmon;
+  border-radius: 6px;
+  /* line-height:60px; */
+box-shadow: 2px 2px 5px black;
+font-weight: 100px;
+padding-top: 10px;
+
+}
+@media only screen and (max-width:320px)and (min-width:100px){
+  #menudiv{
+    height:100px;
+
+    /* width: 180px; */
+    /* position: fixed; */
+    background-color:white;
+    border-radius: 6px;
+    /* line-height:60px; */
+  box-shadow: none;
+  font-weight: bold;
+
+  padding-top: 10px;
+  
+  
+  
+  }
+  .menulinik{
+    font-size: 18px;
+    text-decoration: none;
+    /* color:black; */
+    text-transform: capitalize;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    /* margin-top: px; */
+  
+  }
+
+/* .subdivmenu{
+  height: 100px;
+  /* float: left; */
+  /* width: 10px; */
+
+/* } */ 
+/* .menulinik{
+  font-size: 6px;
+  text-decoration: none;
+  color:white;
+  text-transform: capitalize;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  /* margin-top: px; */
+
+/* } */
+
+}
+
+@keyframes mai{
+  from{margin-top: 0px;}
+  to{margin-top: 50px;}
+}
+.menulinik{
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  
+  /* margin-top: px; */
+
+}
+.menulinik:hover{
+  font-size: 21px;
+
+}
+.subdivmenu{
+  height: 50px;
+  float: left;
+  width: 233px;
+
+}
+#submenu{
+  height: 50px;
+  width: 700px;
+}
+#note1{
+  /* display: inline; */
+  float: left;
+  position: static;
+}
+#alo{
+  margin-bottom:100px;
+}
+#studlog{
+  height: 290px;
+width: 250px;
+background-color:whitesmoke;
+border-radius: 10px;
+box-shadow: 2px 2px 10px black;
+margin-top: 50px;
+/* animation-name: mai; */
+animation-duration: 3s;
+animation-iteration-count: 1;
+}
+#stulolog{
+  margin-top: 20px;
+ 
+}
+.stulolab{
+  font-size: 25px;
+}
+#faclog{
+  height: 250px;
+  width: 240px;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 10px;
+  margin-top: 50px;
+  /* animation-name: anim; */
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  /* font-size:20px; */
+}
+@keyframes anim{
+  from{transform: translateY(100px);}
+  to{transform: translateY(0px);}
+
+}
+#facu{
+  margin-top: 10px;
+}
+table{
+  box-shadow: 2px 2px 10px black;
+}
+img{
+  box-shadow: 5px 5px 15px black;
+  /* border-radius: 10px; */
+}
+.actdiv{
+  height: 50px;
+  width: 600px;
+  color:black;
+  background-color: whitesmoke;
+  box-shadow: 3px 3px 10px black;
+  border-radius: 5px;
+}
+#daytd{
+font-size: 17px;
+width: 200px;
+}
+/* .fot{
+  font-size: 20px;
+} */
+#dat{
+  height: 550px;
+  width: 800px;
+  background-color: lightgray;
+  margin-top: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px black;
+  /* align-items: center; */
+
+}
+#loutbut{
+  /* position:absolute; */
+  /* left: 999px;
+  top:10px */
+  margin-right: 50px;
+  margin-top:5px;
+  background-color: white;
+  box-shadow: 1px 1px 5px black;
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+  width: 70px;
+  cursor: pointer;
+}
+td{
+  font-size: 15.5px;
+  font: weight 100px;
+}
+th{
+  color: white;
+  background-color:black;
+}
+tr:nth-child(even) {background-color:aliceblue;}
+.inlab{
+  float: left;
+  margin-left: 180px;
+  font-size: 20px;
+}
+.ratu{
+  float: right;
+  margin-right: 180px;
+}
+#notdiv{
+  height: 500px;
+  width: 400px;
+  background-color: lightgrey;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px black;
+  margin-top:40px;
+
+}
+#inpdiv{
+  height: 30px;
+  width: 200px;
+margin-top: 50px;
+}
+.inlabs{
+float: left;
+margin-left: 50px;
+margin-top: 50px;
+font-size: 20px;
+/* font-weight: bold; */
+}
+#texdiv{
+/* margin-top: 50px; */
+height: 250px;
+width: 300px;
+border-radius: 1px;
+resize: none;
+
+
+}
+.note{
+  height: 600px;
+  width: 500px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+  margin: 50px;
+}
+.disc{
+  height:200px;
+  border: 1px solid black;
+  border-radius: 10px;
+/* font-family: algerian; */
+  
+}
+.imgk{
+  height: auto;
+  width: 300px;
+  /* border:1px solid black; */
+}
+#hel{
+  position: absolute;
+  left: 0px;
+  
+}
+#regnam{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-right: 8px;
+}
+#rebranch{
+  margin-right: 8px;
+  margin-left: 20px;
+  /* float: right; */
+
+}
+#loubut{
+  /* position:absolute; */
+  /* left: 999px;
+  top:10px */
+margin-left: 950px;
+  margin-top:5px;
+  background-color: white;
+  box-shadow: 1px 1px 5px black;
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+  width: 70px;
+  cursor: pointer;
+
+  
+
+}
+#fr{
+  align-content: center;
+}
+button{
+  cursor: pointer;
+}
+#befnot{
+  float: left;
+  width:1200px
+  
+}
+/* #fropass{
+  margin-bottom: 100px;
+  float: left;
+} */
+#regpas{
+  margin-right: 300px;
+}
+/* #pask{
+  float: right;
+  margin-right: 500px;
+} */
+#passdiv{
+  height:200px;
+  width: 400px;
+  background-color: gray;
+  margin-left: 500px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px black;
+  margin-top: 40px;
+}
+#hu{
+background: linear-gradient(45deg, green, orange, red, blue);
+color: white;
+height: 35px;
+width: 130px;
+border-radius: 5px;
+box-shadow: 2px 2px 5px black;
+font-size: 20px;
+}
+#editdiv{
+  height: 410px;
+  width: 380px;
+  margin-left: 450px;
+  background-color: lightgray;
+  border-radius: 20px;
+  margin-top: 50px;
+  box-shadow: 2px 2px 5px black;
+}
+.iop{
+  float: left;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.ior{
+ margin-right: 10px;
+ margin-top: 20px;
+
+}
+#lou{
+  /* float: right; */
+  margin-left: 900px;
+  margin-top:5px;
+  background-color: white;
+  box-shadow: 1px 1px 5px black;
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+  width: 70px;
+  cursor: pointer;
+
+}
+#logdiv{
+  height:40px;
+  width: 1200px;
+  margin-top: 5px;
+}
+.idr{
+  float: right;
+  margin-right: 10px;
+  height: 20px;
+  width: 60px;
+}
+#insert{
+  height: 250px;
+  width: 400px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+  padding-top: 50px;
+  
+  background-color: lightgray;
+}
+#upeerl{
+  height: 50px;
+  width: 1200px;
+  
+}
+.hor{
+  margin-left: 6px;
+}
+#uplrt{
+  height: 50px;
+  float: right;
+  
+
+}
