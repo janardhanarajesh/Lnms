@@ -10,7 +10,12 @@ import facualtylog from "./models/fac"
 import notice from "./models/notes"
 import fac from "./models/fac"
 const app=express()
-app.use(cors())
+app.use(cors(
+    {
+        oriign:["https://deploy.mern.1whq.vercel.app"],
+        methods:["POST","GET"],
+        credentials:true;
+))
 app.use(bodyParser.json())
 app.use(express.json())
 mongoose.connect("mongodb+srv://janardhanarajesh2:Rajesh-1596@database1.zqbz4vx.mongodb.net/database1?retryWrites=true&w=majority")
